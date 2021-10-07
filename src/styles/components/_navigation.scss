@@ -1,0 +1,15 @@
+.navigation {
+  margin: 26px 0;
+  display: flex;
+
+  a {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  .nav-active{
+    background: #e291eb;
+    border-radius: .5rem;
+    color: #FFF;
+  }
+}
