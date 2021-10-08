@@ -63,7 +63,7 @@ const Countries = () => {
         {sortedData
           .filter((country) => country.region.includes(selectedRadio))
           .map((country) => (
-            <Card country={country} key="{country.name.official}" />
+            <Card country={country} key={country.name.official}/>
           ))}
       </ul>
     </div>
